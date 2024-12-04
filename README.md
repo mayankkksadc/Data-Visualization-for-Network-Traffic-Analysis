@@ -42,7 +42,7 @@ The project aims to:
 
 ## **Datasets Used**
 - **CICIDS 2017 Dataset**: Includes network traffic data labeled with attack types and benign traffic.
-- **Simulated Data**: Created for real-time visualization in Power BI.
+- **Simulated Data**: Derived from the CICIDS 2017 dataset, this simulated data is used for real-time visualization in Power BI.
 
 ---
 
@@ -50,14 +50,13 @@ The project aims to:
 ```
 📂 Project Repository
 ├── 📂 Data
-│   ├── cicids_2017.csv            # Preprocessed CICIDS 2017 dataset
-│   ├── simulated_data.csv         # Simulated network traffic data
+│   ├── Data_Google_Drive_Link       # Simulated network traffic data Google Drive Link
 ├── 📂 Python Files
-│   ├── preprocessing.ipynb        # Data cleaning, transformation, and scaling
-│   ├── model_training.ipynb       # Training ML models with and without PCA
-│   ├── visualization.ipynb        # Visualizing model results and feature importance
-│   ├── simulation_pca.ipynb       # Real-time simulation with PCA
-│   ├── simulation_no_pca.ipynb    # Real-time simulation without PCA
+│   ├── DV_Project_Preprocessing.ipynb                      # Data cleaning, transformation, and scaling
+│   ├── DV_Project_Model.ipynb                              # Training ML models with and without PCA
+│   ├── Network_Traffic_Analysis_Visualization.ipynb        # Visualizing model results and feature importance
+│   ├──Simulation_pca.ipynb                                 # Real-time simulation with PCA
+│   ├── Simulation.ipynb                                    # Real-time simulation without PCA
 ├── 📂 Models
 │   ├── labelencoded.pkl           # Label Encoder instance
 │   ├── pca.pkl                    # PCA instance
@@ -70,8 +69,8 @@ The project aims to:
 │   ├── feature_importance_xgb.png # XGBoost feature importance
 ├── demo_project.mp4               # YouTube link for project demo
 ├── powerbi_visualization.mp4      # YouTube link for Power BI real-time visualization
+├── Paper.pdf                      # Pdf about the project report/paper
 ├── README.md                      # Project description and setup guide
-└── requirements.txt               # Python dependencies
 ```
 
 ---
@@ -88,20 +87,20 @@ The project aims to:
    pip install -r requirements.txt
    ```
 
-3. Download and place the dataset (`cicids_2017.csv`) in the `Data` folder.
+3. Download and place the dataset (`*.csv`) in the `Data` folder (There are multiple dataset and run the preprocessing python file.
 
 ---
 
 ## **Usage**
-1. **Preprocessing**: Run `preprocessing.ipynb` to clean and prepare the data.
+1. **Preprocessing**: Run `DV_Project_Preprocessing.ipynb` to clean and prepare the data.
 2. **Model Training**:
-   - Train ML models using `model_training.ipynb`.
+   - Train ML models using `DV_Project_Model.ipynb`.
    - Evaluate performance with and without PCA.
 3. **Visualization**:
-   - Generate plots using `visualization.ipynb`.
+   - Generate plots using `Network_Traffic_Analysis_Visualization.ipynb`.
 4. **Real-Time Simulation**:
-   - Simulate traffic with PCA: `simulation_pca.ipynb`.
-   - Simulate traffic without PCA: `simulation_no_pca.ipynb`.
+   - Simulate traffic with PCA: `Simulation_pca.ipynb`.
+   - Simulate traffic without PCA: `Simulation.ipynb`.
 5. **Power BI**:
    - Stream predictions and create dashboards with the provided API setup.
 
@@ -130,5 +129,6 @@ The project aims to:
 
 ## **References**
 - [CICIDS 2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
+- Kapadia, M., Dunton, A., Jaculina, C., Ong, A., Thach, D. Data Visualization and Preprocessing for Network Traffic Analysis in Cybersecurity. # Refer the **Paper.pdf** File
 
 ---
