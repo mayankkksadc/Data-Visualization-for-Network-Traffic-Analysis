@@ -57,7 +57,7 @@ The project aims to:
 │   ├── Network_Traffic_Analysis_Visualization.ipynb        # Visualizing model results and feature importance
 │   ├──Simulation_pca.ipynb                                 # Real-time simulation with PCA
 │   ├── Simulation.ipynb                                    # Real-time simulation without PCA
-├── 📂 Models
+├── 📂 Packages and Models
 │   ├── labelencoded.pkl           # Label Encoder instance
 │   ├── pca.pkl                    # PCA instance
 │   ├── scaler_pca.pkl             # Standard Scaler for PCA data
