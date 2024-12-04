@@ -1,5 +1,5 @@
 
-labelencoded.pkl-> Label Encoder Instance
+labelencoded.pkl-> Label Encoder Instance\n
 pca.pkl->Principal Component Analysis INstance
 scaler_pca.pkl-> Standard Scaler for PCA Data
 stdscaler.pkl-> Standard Scaler for Non-PCA Data
