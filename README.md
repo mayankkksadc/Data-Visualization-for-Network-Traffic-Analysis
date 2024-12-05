@@ -64,9 +64,6 @@ The project aims to:
 │   ├── stdscaler.pkl              # Standard Scaler for non-PCA data
 │   ├── xgb_model.model            # XGBoost model for non-PCA data
 │   ├── xgb_pca.model              # XGBoost model for PCA data
-├── 📂 Visualizations
-│   ├── heatmap.png                # Correlation heatmap
-│   ├── feature_importance_xgb.png # XGBoost feature importance
 ├── demo_project.mp4               # YouTube link for project demo
 ├── powerbi_visualization.mp4      # YouTube link for Power BI real-time visualization
 ├── Paper.pdf                      # Pdf about the project report/paper
