@@ -65,7 +65,7 @@ The project aims to:
 │   ├── xgb_model.model            # XGBoost model for non-PCA data
 │   ├── xgb_pca.model              # XGBoost model for PCA data
 ├── demo_project.mp4               # YouTube link for project demo
-├── powerbi_visualization.mp4      # YouTube link for Power BI real-time visualization
+├── powerbi_visualization.mp4      # Google Drive link for Power BI real-time visualization
 ├── Paper.pdf                      # Pdf about the project report/paper
 ├── README.md                      # Project description and setup guide
 ```
