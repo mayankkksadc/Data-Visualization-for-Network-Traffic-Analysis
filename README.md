@@ -126,6 +126,6 @@ The project aims to:
 
 ## **References**
 - [CICIDS 2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
-- Kapadia, M., Dunton, A., Jaculina, C., Ong, A., Thach, D. Data Visualization and Preprocessing for Network Traffic Analysis in Cybersecurity. # Refer the **Paper.pdf** File
+- Kapadia, M., Dunton, A., Jaculina, C., Ong, A., Thach, D. Data Visualization and Preprocessing for Network Traffic Analysis in Cybersecurity.(Refer the **Paper.pdf** File)
 
 ---
